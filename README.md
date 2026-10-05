@@ -8,6 +8,8 @@ Loan officers enter an application, get an instant **Approved / Manual review / 
 
 **Live demo:** [muzaffaralichahal.github.io/loan-assessment-dashboard](https://muzaffaralichahal.github.io/loan-assessment-dashboard/) (runs fully in the browser, no backend needed)
 
+![Dashboard](docs/cover.jpg)
+
 ## Features
 
 - **Application form** with client-side validation, product limits, and a live **monthly payment (EMI) preview**
@@ -58,6 +60,8 @@ src/
     ├── scoring.ts              # TypeScript copy of the scoring rules
     └── types.ts                # API types
 ```
+
+The screenshot at the top is generated from the demo build by [`scripts/readme-screenshots.mjs`](scripts/readme-screenshots.mjs) (Playwright). Run the **Update README screenshots** workflow in the Actions tab to refresh it.
 
 ## License
 
